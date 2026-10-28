@@ -1,0 +1,6 @@
+# Robots Programming and AI: the packages the course needs.
+# In the VS Code terminal, the line ending with \course>, type:   pip install -r requirements.txt
+ur_rtde>=1.6      # talks to Universal Robots arms and the URSim simulator (RTDE protocol)
+pytest>=8         # runs the tests: pytest week02_ai_and_robot/
+PyQt6>=6.4                # week 4: windows with buttons (the code, like the Qt Designer lab)
+PySide6-Essentials>=6.6   # week 4: only for the Qt Designer program. Open it with:  pyside6-designer
